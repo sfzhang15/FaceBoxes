@@ -15,7 +15,7 @@ We propose a novel face detector, named FaceBoxes, with superior performance on 
 <img src="https://github.com/sfzhang15/FaceBoxes/blob/master/faceboxes_performance.jpg" alt="FaceBoxes Performance" width="770px">
 </p>
 
-_Note: The speed is for VGA-resolution images._
+_Note: The performance of FDDB is the true positive rate (TPR) at 1000 false postives. The speed is for VGA-resolution images._
 
 ### Citing FaceBoxes
 
