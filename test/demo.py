@@ -9,7 +9,7 @@ import caffe
 caffe.set_device(0)
 caffe.set_mode_gpu()
 model_def = 'models/faceboxes/deploy.prototxt'
-model_weights = 'models/faceboxes/faceboxes2.caffemodel'
+model_weights = 'models/faceboxes/faceboxes.caffemodel'
 net = caffe.Net(model_def, model_weights, caffe.TEST)
 
 image = caffe.io.load_image('examples/images/1.jpg')

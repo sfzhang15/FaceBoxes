@@ -8,7 +8,7 @@ import caffe
 caffe.set_device(1)
 caffe.set_mode_gpu()
 model_def = 'models/faceboxes/deploy.prototxt'
-model_weights = 'models/faceboxes/faceboxes1.caffemodel'
+model_weights = 'models/faceboxes/faceboxes.caffemodel'
 net = caffe.Net(model_def, model_weights, caffe.TEST)
 
 count = 0
