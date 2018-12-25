@@ -32,7 +32,7 @@ Please cite our paper in your publications if it helps your research:
 1. [Installation](#installation)
 2. [Training](#training)
 3. [Evaluation](#evaluation)
-4. [Models](#models)
+4. [Others](#others)
 
 ### Installation
 1. Get the code. We will call the cloned directory as `$FaceBoxes_ROOT`.
