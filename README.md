@@ -63,6 +63,7 @@ Please cite our paper in your publications if it helps your research:
   ```Shell
   cd $FaceBoxes_ROOT/models/faceboxes
   sh train.sh
+  ```
 
 ### Evaluation
 1. Download the images of [AFW](https://drive.google.com/open?id=1Kl2Cjy8IwrkYDwMbe_9DVuAwTHJ8fjev), [PASCAL Face](https://drive.google.com/open?id=1p7dDQgYh2RBPUZSlOQVU4PgaSKlq64ik) and [FDDB](https://drive.google.com/open?id=17t4WULUDgZgiSy5kpCax4aooyPaz3GQH) to `$FaceBoxes_ROOT/examples/images/`.
