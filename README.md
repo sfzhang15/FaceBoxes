@@ -82,7 +82,7 @@ Please cite our paper in your publications if it helps your research:
 
 ### Others
 
-1. We will reimplement the FaceBoxes with PyTorch.
+1. We reimplement the FaceBoxes with PyTorch as [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch).
 
 2. We will release a trained model of the imporved version of FaceBoxes, which jonitly performs face detection and alignment (5 landmarks).
 
