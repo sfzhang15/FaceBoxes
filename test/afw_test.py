@@ -13,8 +13,8 @@ net = caffe.Net(model_def, model_weights, caffe.TEST)
 
 count = 0
 Path = './examples/images/afw_images/'
-f = open('./examples/faceboxes/afw-dets.txt', 'wt')
-for Name in open('./examples/faceboxes/afw_img_list.txt'):
+f = open('./test/afw-dets.txt', 'wt')
+for Name in open('./test/afw_img_list.txt'):
     Image_Path = Path + Name[:-1] + '.jpg'
     image = caffe.io.load_image(Image_Path)
     im_scale = 1.0
