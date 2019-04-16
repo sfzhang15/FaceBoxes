@@ -13,8 +13,8 @@ net = caffe.Net(model_def, model_weights, caffe.TEST)
 
 count = 0
 Path = './examples/images/pascal_images/'
-f = open('./examples/faceboxes/pascal-dets.txt', 'wt')
-for Name in open('./examples/faceboxes/pascal_img_list.txt'):
+f = open('./test/pascal-dets.txt', 'wt')
+for Name in open('./test/pascal_img_list.txt'):
     Image_Path = Path + Name[:-1]
     image = caffe.io.load_image(Image_Path)
     im_scale = 2.5
